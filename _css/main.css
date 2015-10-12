@@ -1,1 +1,123 @@
-/* css */
+/*css n stuff*/
+body {
+    margin:0px;
+    padding:0px;
+    background-image:url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg);
+}
+
+#header {
+    background-color:gray;
+    padding:0px;
+    color:white;
+}
+h1 {
+    padding:20px 40px;
+    margin:0px;
+    font-family:Verdana;
+    font-size:60pt;
+}
+/*Navagation*/
+#nav, #nav a {
+    background-color:#CCC;  /*This sets backgroud color to gray, wow I totally didn't know that, such interesting information*/
+    padding:10px;
+}
+
+#nav a {
+    Margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;  /*This makes it so the line underneath a link won't show and it'll be all professional and stuff*/
+    transition:background-color 2s, color 2s;  /*This transitions things and I don't feel like saying exactly what it does*/
+    margin-left:20px;
+}
+
+#nav a:hover {
+    background-color:#AAAAFF;  /*This changes the background color to a light purple*/
+    color:white;
+    transition:color 2s;  /*Look at transition above*/
+}
+/*End Navagation*/
+#content {
+    padding:20px 40px;
+    background-color:#EEE;  /*This sets backgroud color to a light gray?*/
+    margin:0px;
+}
+
+h2, h3 {
+    font-family:arial;
+}
+
+#footer {
+    padding:20px 40px;
+    background-color:black;  /*This sets backgroud color to black*/
+    margin:0px;
+}
+
+#footer h3, ul {
+    color:white;
+}
+
+#footer a {
+    text-decoration:none;
+}
+.spotlight {
+    background-color:pink;
+    padding:20px;
+}
+
+#color {
+    color:black;
+}
+#page {
+    padding:40px 80px 40px 80px;
+}
+
+/*
+#header {
+    padding:20px;
+    width:400px;
+    background-color:gray;
+    color:white;
+}
+
+#header:hover {
+    background-color:pink;
+    width:300px;
+    color:black;
+    transition: background-color 2s, color 2s;
+}
+
+#content {
+    background-color:green;
+    width:400px;
+}
+
+#content:hover {
+    background-color:orange;
+    transition: background-color 2s;
+}
+    
+#footer {
+    width:400px;
+    background-color:red;
+}
+
+#footer:hover {
+   background-color:purple;
+   transition: background-color 2s;
+}
+
+#header h2 {
+    background-color:#6666FF;
+    padding:9px;
+    font-family:Arial;
+    font-size:0px;
+}
+
+#header h2:hover{
+    background-color:green;
+    font-family:jokerman;
+    font-size:100px;
+    transition: background-color 2s, font-family 2s, font-size s;
+}
+*/
